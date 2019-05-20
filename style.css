@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background: url("../Responsive-Portfolio/asset/bananas.png");
   }
   
   * {
@@ -216,3 +216,41 @@ body {
     border: 0 none;
   }
   
+  @media screen and (max-width: 980px) {
+    .auth-image { 
+        width: 45%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .auth-image { 
+        width: 60%;
+    }
+    
+  }
+
+  @media screen and (max-width: 640px) {
+    .auth-image { 
+        width: 90%;
+    }
+    nav {
+        float: center;
+        width: 100%;
+        text-align: center;
+       
+      
+    }
+    #logo {
+        text-align: center;
+        width: 100%;
+    }
+    .main-section {
+        margin-top: 10%;
+    }
+    
+    .main-section {
+        width: 90%;
+        margin-left: 20px;
+        padding: 25px;
+    }
+  }
