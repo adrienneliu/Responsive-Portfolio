@@ -267,6 +267,7 @@ body {
     #logo {
         text-align: center;
         width: 100%;
+        margin: 0;
     }
     .main-section {
         margin-top: 10%;
@@ -274,4 +275,9 @@ body {
         margin-left: 20px;
         padding: 25px;
     }
+
+   .work {
+       width: 90%;
+   }
+    
   }
