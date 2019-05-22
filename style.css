@@ -276,7 +276,7 @@ body {
 
     .a
     uth-image { 
-        width: 95%;
+        width: 100%;
     }
     nav {
         float: center;
@@ -308,4 +308,6 @@ body {
    textarea {
      height: 115px;
    }
+
+
   }
