@@ -122,8 +122,8 @@ body {
   #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
-  }
   
+  }
   .main-section {
     float: left;
     width: 100%;
@@ -226,6 +226,7 @@ body {
         margin-left: 40px;
         font-size: 80%;
         
+        
     }
     #logo {
         margin-left: 30px;
@@ -234,12 +235,14 @@ body {
     .work {
         width: 40%;
     }
-
+    
+  
   }
 
   @media screen and (max-width: 768px) {
     .auth-image { 
-        width: 50%;
+        width: 55%;
+        
     }
        
     #logo {
@@ -247,25 +250,39 @@ body {
     }
     
     .main-section {
-        width: 95%;
+        width: 90%;
         margin-left: 20px;
+        height: 50%;        
         
     }
 
+    .work {
+      margin: 15px;    
+      
+  }
+  
     nav {
         float: right;
 
     }
+
+    footer {
+      margin-top: 50%;
+    }
+
   }
 
   @media screen and (max-width: 640px) {
-    .auth-image { 
+
+    .a
+    uth-image { 
         width: 95%;
     }
     nav {
         float: center;
         width: 100%;
         text-align: center;
+        position: static;
        
       
     }
@@ -278,11 +295,17 @@ body {
         margin-top: 10%;
         width: 90%;
         margin-left: 20px;
-        padding: 25px;
+        padding: 15px;
     }
 
    .work {
        width: 90%;
    }
-    
+
+   footer {
+    margin-top: 60%;
+  }
+   textarea {
+     height: 115px;
+   }
   }
